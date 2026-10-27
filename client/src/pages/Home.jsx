@@ -82,7 +82,7 @@ function getCompanyName(job) {
     job?.companyName ||
     job?.company?.name ||
     job?.company ||
-    "SmartHire Employer"
+    "Talent Smart Employer"
   );
 }
 
@@ -319,7 +319,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">
-              SmartHire helps job seekers discover relevant opportunities
+              Talent Smart helps job seekers discover relevant opportunities
               and helps employers find talent based on skills, experience,
               and job requirements — not just matching keywords.
             </p>
@@ -339,7 +339,7 @@ export default function Home() {
                 onClick={handlePostJob}
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3.5 text-sm font-bold text-slate-800 transition hover:border-emerald-300 hover:bg-emerald-50"
               >
-                Hire with SmartHire
+                Hire with Talent Smart
                 <ArrowUpRight size={17} />
               </button>
             </div>
@@ -545,7 +545,7 @@ export default function Home() {
               description={
                 keyword || location
                   ? `Showing opportunities matching your selected filters.`
-                  : "Discover opportunities from the SmartHire job listings."
+                  : "Discover opportunities from the Talent Smart job listings."
               }
             />
 
@@ -702,20 +702,20 @@ export default function Home() {
         <div className="grid items-start gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
           <div>
             <p className="mb-3 text-xs font-extrabold uppercase tracking-[0.18em] text-emerald-700">
-              About SmartHire
+              About Talent Smart
             </p>
             <h2 className="text-3xl font-black leading-tight tracking-tight text-slate-950 sm:text-4xl">
               Helping people and opportunities find each other.
             </h2>
             <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-base">
-              SmartHire is an AI-powered job-matching platform designed with
+              Talent Smart is an AI-powered job-matching platform designed with
               the Nigerian job market in mind. We help job seekers explore
               relevant roles and help employers discover candidates whose
               skills and experience align with their hiring needs.
             </p>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
               Our goal is to make job discovery more relevant, hiring more
-              informed, and career opportunities easier to navigate. SmartHire
+              informed, and career opportunities easier to navigate. Talent Smart
               supports the connection between Nigerian talent and employers
               through a more thoughtful, skills-aware matching experience.
             </p>
@@ -725,7 +725,7 @@ export default function Home() {
               onClick={handleDashboard}
               className="mt-7 inline-flex items-center gap-2 rounded-xl bg-emerald-700 px-5 py-3 text-sm font-bold text-white transition hover:bg-emerald-800"
             >
-              Get started with SmartHire
+              Get started with Talent Smart
               <ArrowRight size={16} />
             </button>
           </div>
@@ -835,7 +835,7 @@ export default function Home() {
                 Find talent that fits your needs.
               </h2>
               <p className="mt-4 max-w-xl text-sm leading-7 text-emerald-50/85 sm:text-base">
-                Create a job listing and use SmartHire to compare candidate
+                Create a job listing and use Talent Smart to compare candidate
                 skills and experience with your role requirements.
               </p>
             </div>
@@ -857,24 +857,24 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-8 px-5 py-12 sm:px-8 md:grid-cols-2 md:items-center lg:px-10">
           <div>
             <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-emerald-700">
-              Contact SmartHire
+              Contact Talent Smart
             </p>
             <h2 className="mt-3 text-2xl font-black tracking-tight text-slate-950">
               We'd love to hear from you.
             </h2>
             <p className="mt-3 max-w-lg text-sm leading-6 text-slate-600">
               Have a question, suggestion, or partnership enquiry? Reach out
-              to us by email or connect with SmartHire on X.
+              to us by email or connect with Talent Smart on X.
             </p>
           </div>
 
           <div className="flex flex-col gap-3 sm:flex-row md:justify-end">
             <a
-              href={`mailto:${EMAIL}?subject=${encodeURIComponent("SmartHire enquiry")}`}
+              href={`mailto:${EMAIL}?subject=${encodeURIComponent("Talent Smart enquiry")}`}
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-800 transition hover:border-emerald-300 hover:bg-emerald-50"
             >
               <Mail size={18} className="text-emerald-700" />
-              Email SmartHire
+              Email Talent Smart
               <ArrowUpRight size={15} />
             </a>
 
@@ -935,7 +935,7 @@ export default function Home() {
                   Browse jobs
                 </Link>
                 <a href="#about" className="transition hover:text-white">
-                  About SmartHire
+                  About Talent Smart
                 </a>
                 <a href="#contact" className="transition hover:text-white">
                   Contact
@@ -948,7 +948,7 @@ export default function Home() {
                 Get in touch
               </h3>
               <p className="mt-4 text-sm leading-6 text-emerald-50/70">
-                For questions, feedback, and enquiries, contact SmartHire
+                For questions, feedback, and enquiries, contact Talent Smart
                 through our official email or X profile.
               </p>
 
@@ -963,8 +963,8 @@ export default function Home() {
               <div className="mt-4 flex items-center gap-3">
                 <a
                   href={`mailto:${EMAIL}`}
-                  aria-label="Email SmartHire"
-                  title="Email SmartHire"
+                  aria-label="Email Talent Smart"
+                  title="Email Talent Smart"
                   className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 transition hover:border-emerald-300 hover:bg-white/10"
                 >
                   <Mail size={17} />
@@ -974,8 +974,8 @@ export default function Home() {
                   href={X_PROFILE}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="SmartHire on X, formerly Twitter"
-                  title="SmartHire on X"
+                  aria-label="Talent Smart on X, formerly Twitter"
+                  title="Talent Smart on X"
                   className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-sm font-black transition hover:border-emerald-300 hover:bg-white/10"
                 >
                   X
@@ -988,7 +988,7 @@ export default function Home() {
 
           <div className="flex flex-col gap-3 text-xs text-emerald-100/60 sm:flex-row sm:items-center sm:justify-between">
             <p>
-              © {new Date().getFullYear()} SmartHire. All rights reserved.
+              © {new Date().getFullYear()} Talent Smart. All rights reserved.
             </p>
             <p>Smarter Matching. Brighter Futures.</p>
           </div>

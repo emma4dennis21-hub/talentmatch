@@ -25,7 +25,7 @@ export default function Navbar() {
           <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-emerald-700 text-white">
             <Zap size={19} />
           </span>
-          <span>SmartHire</span>
+          <span>Talent Smart</span>
         </Link>
 
         <div className="hidden items-center gap-5 text-sm text-ink md:flex">
